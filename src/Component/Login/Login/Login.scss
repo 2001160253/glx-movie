@@ -1,0 +1,66 @@
+.loginForm {
+  width: 520px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 0 18px rgb(0 0 0 / 20%);
+  h1 {
+    border-bottom: 2px solid #f26b38;
+    width: 45%;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f26b38;
+  }
+  .subTitle {
+    font-size: 12px;
+    color: #a0a3a7;
+    display: block;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  .formLogin {
+    margin-top: 32px;
+    .inputContainer {
+      input {
+        outline: none;
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        height: 40px;
+        box-sizing: border-box;
+        font-size: 14px;
+        border: 1px solid #ced0da;
+        color: #43464b;
+        padding: 10px;
+        margin: 14px 0;
+      }
+    }
+    .forgotPass {
+      color: #a0a3a7;
+      text-decoration: none;
+      font-size: 14px;
+      margin: 20px 0;
+      display: block;
+      &:hover {
+        color: #f26b38;
+      }
+    }
+    button {
+      display: inline-block;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #ffffff;
+      background-color: #ef8761;
+      padding: 15px;
+      text-decoration: none;
+      line-height: 1;
+      width: 100%;
+      border: none;
+      font-weight: bold;
+      &:hover {
+        background-color: #e26435;
+      }
+    }
+  }
+}

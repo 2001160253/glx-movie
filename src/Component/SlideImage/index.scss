@@ -1,0 +1,12 @@
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin-top: 5px;
+    .sliderImg {
+      height: 100%;
+      object-fit: contain;
+      width: 100%;
+      cursor: pointer;
+    }
+  }

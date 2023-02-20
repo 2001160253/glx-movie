@@ -1,0 +1,69 @@
+.display-block {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+
+.bookingTicket {
+  max-width: 1280px;
+  margin: auto;
+  .bookingWrapper {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .contentWrapper {
+    // border: 12px solid #e3ebfa;
+    border: 12px solid #eda084;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    p {
+      margin: 0;
+      margin: 3px 0;
+    }
+    img {
+      width: 100%;
+      margin: auto;
+    }
+    .nameMovie {
+      text-transform: uppercase;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .rap {
+      font-weight: bold;
+      font-size: 14px;
+      span {
+        font-size: 15px;
+        font-weight: normal;
+      }
+    }
+    .showTime {
+      .de {
+        border-right: 1px solid #837d7d;
+        margin: 0 4px;
+      }
+    }
+    .totalRap {
+      span {
+        font-size: 20px;
+        color: #f26b38;
+      }
+    }
+    .btnConti {
+      background-color: #eda084;
+      margin: 0;
+      width: 120px;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: bold;
+      &:hover {
+        background-color: #e07c57;
+      }
+    }
+  }
+}

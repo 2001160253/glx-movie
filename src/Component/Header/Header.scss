@@ -1,0 +1,168 @@
+.body {
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 113px;
+    height: 80px;
+    .logo {
+      a {
+        display: block;
+        width: 400px;
+        height: 50px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    input {
+      border: 1px solid #ced0da;
+      font-size: 14px;
+      height: 30px;
+      transition: width 0.3s;
+      -webkit-transition: width 0.3s;
+      color: #43464b;
+      padding-left: 8px;
+      outline: none;
+      width: 300px;
+      // display: none;
+    }
+    .log {
+      position: relative;
+      cursor: pointer;
+      &:hover > .subLogin {
+        display: block;
+      }
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+        svg {
+          margin-right: 10px;
+        }
+      }
+      .subLogin {
+        box-shadow: 0 0 18px rgb(0 0 0 / 20%);
+        position: absolute;
+        // left: -50%;
+        // top: 25px;
+        top: 21px;
+        left: -65px;
+        z-index: 10;
+        display: none;
+
+        ul {
+          width: 200px;
+          min-height: 80px;
+          background-color: #fff;
+          padding: 0;
+          list-style-type: none;
+          margin: 0;
+          font-size: 14px;
+          border-radius: 6px;
+          li {
+            padding: 5px 14px;
+            &:hover {
+              cursor: pointer;
+              background-color: #ececef;
+            }
+          }
+
+          li:first-child {
+            padding-top: 10px;
+          }
+          li:last-child {
+            padding-bottom: 10px;
+          }
+        }
+      }
+      .logout {
+        cursor: pointer;
+        &:hover {
+          color: #e26435;
+        }
+      }
+    }
+    .login {
+      align-items: center;
+      width: 170px;
+      justify-content: space-around;
+      position: relative;
+      .btn-login {
+        &::after {
+          content: "";
+          border: 1px solid #ddd;
+          position: absolute;
+          left: 54%;
+          height: 20px;
+          &:hover {
+            cursor: unset;
+          }
+        }
+      }
+      .btnLogin {
+        font-size: 13px;
+        color: #a0a3a7;
+      }
+      :hover {
+        color: #f26b38;
+        transition: all 0.5s;
+
+        cursor: pointer;
+      }
+    }
+  }
+  #menu {
+    .container-fluid {
+      height: 50px;
+      background-color: #000;
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+        li {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          position: relative;
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.5s;
+          }
+          :hover {
+            color: #f26b38;
+            transition: all 0.5s;
+          }
+        }
+        ::after {
+          content: "";
+          background-color: #fff;
+          height: 22px;
+          width: 1px;
+          position: absolute;
+          right: 0px;
+          top: 0;
+        }
+        :last-child::after {
+          display: none;
+        }
+      }
+    }
+  }
+  .imgContainer {
+    height: 450px;
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}

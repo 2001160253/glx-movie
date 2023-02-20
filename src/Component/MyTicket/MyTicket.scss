@@ -1,0 +1,120 @@
+.myTicket {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 40px;
+  .ticketContainer {
+    .breadcrumb {
+      font-size: 14px;
+      align-items: center;
+      margin-bottom: 20px;
+      a {
+        text-decoration: none;
+        color: #a0a3a7;
+        &:hover {
+          color: #e26435;
+        }
+      }
+      svg {
+        color: #a0a3a7;
+        margin: 0 4px;
+      }
+      span {
+        font-weight: bold;
+        color: #564949;
+      }
+    }
+    .listMyticket {
+      margin-top: 40px;
+    }
+    .headerTb {
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f4a385;
+      color: #ffffff;
+      padding-left: 14px;
+      .idTicket {
+        width: 5%;
+      }
+      .nameTicket {
+        width: 25%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .nameTheater {
+        width: 15%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .comboTicket {
+        width: 15%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .seatTicket {
+        width: 15%;
+      }
+      .timeTicket {
+        width: 15%;
+        .giod::after {
+          content: "";
+          border-right: 1px solid #ae9e9e;
+          margin: 0 4px;
+        }
+      }
+    }
+    .contentTicket {
+      background-color: #fff;
+      color: #000;
+      margin-top: 10px;
+      background-color: #f0ebe9;
+      padding: 4px;
+      padding-left: 14px;
+
+      margin: 0;
+      border-bottom: 1px solid #fad3c5;
+      li {
+        text-align: left;
+      }
+    }
+  }
+  .tickWFilm {
+    margin-top: 60px;
+    h1 {
+      margin: 0;
+      font-size: 18px;
+      text-align: left;
+      text-transform: uppercase;
+      border-bottom: 1px solid #fb9c8c;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 163px;
+    }
+    .tickFilm {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .filmW {
+        width: 24%;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 300px;
+        }
+        p {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+}

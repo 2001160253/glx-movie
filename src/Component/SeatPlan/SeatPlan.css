@@ -1,0 +1,91 @@
+.listSeat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+.physicalName {
+}
+
+.body-seats {
+  width: 90%;
+}
+
+.seats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  background-color: rgb(80, 79, 79);
+  width: 25px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 8px;
+}
+.seat-selected {
+  background-color: rgb(81, 244, 67);
+}
+.seat-buyed {
+  background-color: rgb(255, 50, 50);
+}
+.number p {
+  margin-bottom: 0;
+}
+
+button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.body-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.display {
+  /* background-color: #e3ebfa; */
+  background-color: #eda084;
+  padding: 20px;
+  text-align: center;
+}
+
+.Name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: solid 10px #ea612f;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.styleSeat p {
+  font-size: 10px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.styleSeat p span {
+  width: 15px;
+  height: 15px;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+.styleSeat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
